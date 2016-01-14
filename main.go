@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("Starting up...")
 	http.HandleFunc("/", handler)
 	fmt.Println("Start webserver")
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 	fmt.Println("Finishing")
 }
 
