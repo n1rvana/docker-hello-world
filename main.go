@@ -14,5 +14,5 @@ func main() {
 }
 
 func handler(rw http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(rw, "<h3>Hello World from a docker container...</h3>")
+	fmt.Fprintf(rw, "<html><head></head><body><h3>Hello World from a docker container...</h3></body>")
 }
